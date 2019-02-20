@@ -42,7 +42,7 @@ def alan_kay_is_known_for
 
 
 def dennis_ritchies_language
-	programmer_hash =
+	programmer_info =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -115,7 +115,7 @@ def changing_alan
 end
 
 def adding_to_dennis
-	programmer_hash =
+	programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -134,3 +134,14 @@ programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 programmer_hash
 
 end
+contacts = {
+  "Jon Snow" => {
+    name: "Jon",
+    email: "jon_snow@thewall.we",
+    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
+  "Freddy Mercury" => {
+    name: "Freddy",
+    email: "freddy@mercury.com",
+    favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+  }
+}
